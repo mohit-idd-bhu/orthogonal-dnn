@@ -3,16 +3,12 @@ Implementation of Orthogonal Deep Neural Network(ODNN) from this [reasearch pape
 
 ## Theory
 
-In this work, the main objective of the orthogonality is to reduce the correlation between the filters. This will help minimization the learned features redundancy, and hence the model capacity will be better utilized which improves the expressiveness of the features and accordingly the classification performance. The orthogonality is induced between the filters using the soft orthogonality constraints which has been achieved by adding the orthogonal loss with constant $\lambda$ to the network loss as described in (5). The regularization parameter $\lambda$ constraints the orthogonality between the filters. In other words, when the filters are highly correlated, the value $\lambda$ needs to be high to enforce the filters to be orthogonal as possible. Likewise, $\lambda$ value is less when the filters are slightly correlated.
+In this work, the main objective of the orthogonality is to reduce the correlation between the filters. This will help minimization the learned features redundancy, and hence the model capacity will be better utilized which improves the expressiveness of the features and accordingly the classification performance. The orthogonality is induced between the filters using the soft orthogonality constraints which has been achieved by adding the orthogonal loss with constant $\lambda$ to the network loss as described in the paper. The regularization parameter $\lambda$ constraints the orthogonality between the filters. In other words, when the filters are highly correlated, the value $\lambda$ needs to be high to enforce the filters to be orthogonal as possible. Likewise, $\lambda$ value is less when the filters are slightly correlated.
 
 ## Model
 
-[Model](uploads/model.png)
+![Model](uploads/model.jpg)
 
 ## Results
 
-### 1
-
-### 2
-
-### 3
+![Results](uploads/result.PNG)
